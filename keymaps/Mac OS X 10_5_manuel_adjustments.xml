@@ -7,11 +7,24 @@
     <mouse-shortcut keystroke="button4" />
   </action>
   <action id="ChangesView.GroupBy.Directory" />
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
   <action id="Console.TableResult.NavigateAction">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="DSM.OpenInEditor">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="DSM.ZoomIn">
+    <keyboard-shortcut first-keystroke="meta add" />
   </action>
   <action id="Debugger.EditFrameSource">
     <keyboard-shortcut first-keystroke="f4" />
@@ -29,9 +42,23 @@
     <keyboard-shortcut first-keystroke="meta alt close_bracket" />
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
+  <action id="EditorCodeBlockEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta alt close_bracket" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
   <action id="EditorCodeBlockStart">
     <keyboard-shortcut first-keystroke="meta alt open_bracket" />
     <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="EditorCodeBlockStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta alt open_bracket" />
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta equals" />
   </action>
   <action id="EditorSelectWord" />
   <action id="EditorTextEnd">
@@ -43,6 +70,19 @@
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id="EditorUnSelectWord" />
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ExternalSystem.ExpandAll">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
   <action id="ExternalSystem.OpenConfig">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -59,11 +99,19 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="GuiDesigner.ExpandSelection" />
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
   <action id="Jdbc.OpenEditor">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="Maven.ExpandAll">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
+  <action id="MoveLineDown" />
+  <action id="MoveLineUp" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl right" />
@@ -99,6 +147,9 @@
   <action id="SmartSelect" />
   <action id="TableResult.GrowSelection" />
   <action id="TodoViewGroupByShowPackages" />
+  <action id="UML.ZoomIn">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
   <action id="Vcs.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
