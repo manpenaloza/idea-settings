@@ -7,4 +7,12 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
+  <template name="jscomment" value="/*&#10;  $COMMENT$&#10;*/&#10;$ENDS$" toReformat="true" toShortenFQNames="true">
+    <variable name="COMMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ENDS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
