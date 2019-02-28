@@ -1,0 +1,10 @@
+<templateSet group="user">
+  <template name="debug" value="echo '&lt;pre&gt;';&#10;var_dump($VARIABLE$);&#10;echo '&lt;/pre&gt;';&#10;die();&#10;$ENDS$" description="debug using var_dump using proper pre tags" toReformat="true" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ENDS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+</templateSet>
