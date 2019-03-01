@@ -1,0 +1,11 @@
+<templateSet group="Impex">
+  <template name="userrights" value="$START_USERRIGHTS&#10;Type;UID;MemberOfGroups;Password;Target;read;change;create;delete;change_perm&#10;UserGroup;$UID$;$MEMBER_OF_GROUPS$;&#10;$END_USERRIGHTS&#10;" description="Define user rights for object" toReformat="false" toShortenFQNames="false">
+    <variable name="UID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MEMBER_OF_GROUPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="deleteAll" value="#PLEASE BE CAREFUL with this and add catalog version to the parameters if needed to avoid removing configuration from all sites&#10;REMOVE $TYPE$[batchmode=true];itemtype(code)[unique=true]&#10;;$TYPE$" description="Delete all objects by type" toReformat="false" toShortenFQNames="false">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
